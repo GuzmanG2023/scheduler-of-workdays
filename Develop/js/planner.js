@@ -1,6 +1,9 @@
 var hour = moment().hour();
 console.log(hour,"hour")
 
+var btn = document.querySelector("button");
+
+
 function colorHours () {
     var hour = moment().hour();
     // if (hour != 12) {hour = hour%12}
@@ -18,6 +21,23 @@ function colorHours () {
         }
     }
 }
+
+var updateData = function(){
+    $("#9am").val(localStorage.getItem("9am"))
+}
+
+var saveTasks = function() {
+    var tasks = $(this).siblings(".description").val()
+    var hours = $(this).siblings(".hour").text()
+    console.log(hours, tasks)
+
+    localStorage.setItem(hours, tasks)
+    updateData()
+}
+
+$(".saveBtn").click(saveTasks)
+
+
 
 setInterval(colorHours, 60000);
 
