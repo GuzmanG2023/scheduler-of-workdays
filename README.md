@@ -4,4 +4,4 @@
 
 ## the work scheduler, displaying a standard business hours. it changes colors with the time of the day displaying past(grey), present(red), future(green). you can put description and hit the save button refreshing the paper will keep your description on the site.
 
-[title](//Users/GGuzman/Desktop/projects/scheduler-of-workdays/Develop/index.html) . clicking here to will take you to the page
+[title](https://guzmang2023.github.io/scheduler-of-workdays/) . clicking here to will take you to the page
