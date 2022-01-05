@@ -5,3 +5,5 @@
 ## the work scheduler, displaying a standard business hours. it changes colors with the time of the day displaying past(grey), present(red), future(green). you can put description and hit the save button refreshing the paper will keep your description on the site.
 
 [title](/GGuzman/Desktop/projects/scheduler-of-workdays/index.html)  <~~ clicking here to will take you to the page
+
+(file:///Users/GGuzman/Desktop/projects/scheduler-of-workdays/index.html)
